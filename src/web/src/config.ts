@@ -7,8 +7,8 @@ const postsServiceUrl = process.env.NEXT_PUBLIC_POSTS_URL;
 
 const title = `Telescope`;
 const description = `A tool for tracking blogs in orbit around Seneca's open source involvement`;
-const author = `SDDS Students and professors`;
-const keywords = 'blogfeeds, canada, opensourced';
+const author = `SDDS Students and Professors`;
+const keywords = `Telescope, Seneca College, Open Source, Programming, Software Development, Blogs, Education, CDOT, SDDS, Students, Professors, Learning, Teaching`;
 
 const loginUrl = `${authServiceUrl}/login`;
 const logoutUrl = `${authServiceUrl}/logout`;

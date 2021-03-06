@@ -36,6 +36,29 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:image:alt" content={title} />
           <meta name="twitter:url" content={telescopeUrl} />
+
+
+
+
+
+          <title>Telescope</title>
+          <meta name="title" content="Telescope">
+          <meta name="description" content="A tool for tracking blogs in orbit around Seneca's open source involvement">
+
+          {/* Open Graph / Facebook */}
+          <meta property="og:type" content="website">
+          <meta property="og:url" content="https://telescope.cdot.systems/">
+          <meta property="og:title" content="Telescope">
+          <meta property="og:description" content="A tool for tracking blogs in orbit around Seneca's open source involvement">
+          <meta property="og:image" content="">
+
+          {/* Twitter */}
+          <meta property="twitter:card" content="summary_large_image">
+          <meta property="twitter:url" content="https://telescope.cdot.systems/">
+          <meta property="twitter:title" content="Telescope">
+          <meta property="twitter:description" content="A tool for tracking blogs in orbit around Seneca's open source involvement">
+          <meta property="twitter:image" content="">
+
         </Head>
         <body>
           <Main />
